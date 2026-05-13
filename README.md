@@ -1,4 +1,4 @@
-# WAS Text Nodes — Minimal Extract
+# WAS Text Nodes - Minimal Extract
 
 A lightweight extract from [WAS Node Suite](https://github.com/WASasquatch/was-node-suite-comfyui) containing two text utility nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
 
@@ -10,8 +10,8 @@ A simple multiline text input node. Any line beginning with `#` is treated as a 
 ### Text Load Line From File
 Reads lines from a text file (or an inline multiline string) one at a time, with two selection modes:
 
-- **automatic** — advances through lines sequentially across executions, wrapping back to the start when the end is reached.
-- **index** — returns the line at a specific index on demand.
+- **automatic** - advances through lines sequentially across executions, wrapping back to the start when the end is reached.
+- **index** - returns the line at a specific index on demand.
 
 Progress is persisted to a local JSON database (`was_suite_settings.json`) so the position survives restarts. File paths are also recorded in a history database (`was_history.json`).
 
@@ -31,5 +31,5 @@ Progress is persisted to a local JSON database (`was_suite_settings.json`) so th
 
 ## Credits
 
-Extracted from [WAS Node Suite](https://github.com/WASasquatch/was-node-suite-comfyui) by WASasquatch. Original code is MIT licensed — see that repository for the full license text.
+Extracted from [WAS Node Suite](https://github.com/WASasquatch/was-node-suite-comfyui) by WASasquatch. Original code is MIT licensed - see that repository for the full license text.
 "# WAS-text-nodes" 

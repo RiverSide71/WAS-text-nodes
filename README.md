@@ -20,7 +20,7 @@ Progress is persisted to a local JSON database (`was_suite_settings.json`) so th
 1. Clone this repo into your ComfyUI `custom_nodes` directory:
    ```bash
    cd ComfyUI/custom_nodes
-   git clone https://github.com/RiverSide71/WAS-Text-Nodes
+   git clone https://github.com/RiverSide71/WAS-text-nodes
    ```
 2. Restart ComfyUI. The nodes will appear under **WAS Suite / Text** in the node browser.
 
